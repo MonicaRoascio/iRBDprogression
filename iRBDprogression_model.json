@@ -1,0 +1,54 @@
+{
+  "leaspy_version": "1.5.0",
+  "name": "logistic",
+  "features": [
+    "updrs_mdsupdrs_score",
+    "mmse_moca_score"
+  ],
+  "dimension": 2,
+  "fit_metrics": {
+    "nll_regul_tau": 2153.223876953125,
+    "nll_regul_xi": 1027.057861328125,
+    "nll_regul_sources": 873.7511596679688,
+    "nll_regul_tot": 4054.0341796875,
+    "nll_attach": -7245.60400390625,
+    "nll_tot": -3191.5703125
+  },
+  "noise_model": {
+    "name": "gaussian-diagonal",
+    "scale": [
+      0.025854647159576416,
+      0.06940764933824539
+    ]
+  },
+  "parameters": {
+    "g": [
+      3.2038345336914062,
+      1.8053470849990845
+    ],
+    "v0": [
+      -5.702642440795898,
+      -5.569227695465088
+    ],
+    "betas": [
+      [
+        0.0742122158408165
+      ]
+    ],
+    "tau_mean": 70.5064926147461,
+    "tau_std": 8.11435604095459,
+    "xi_mean": 0.0,
+    "xi_std": 1.2924021482467651,
+    "sources_mean": 0.0,
+    "sources_std": 1.0,
+    "mixing_matrix": [
+      [
+        -0.008061530068516731
+      ],
+      [
+        0.07377306371927261
+      ]
+    ]
+  },
+  "source_dimension": 1
+}
